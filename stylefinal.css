@@ -1,0 +1,104 @@
+h1{
+	position:absolute;
+	text-align: center;
+	color:black;
+	font-size: 4em;
+	font-family:"Prata";
+	top:-40px;
+	margin-left: 200px;
+}
+
+h3{
+	position: relative;
+	text-align: center;
+	color:black;
+	font-size: 1.5em;
+	top:35px;
+	font-family:"Lato";
+}
+
+p{
+	color:black;
+	font-size: 2em;
+
+	font-family:"Lato";
+}
+
+#main{
+	position: absolute;
+	top:140px;
+	color:black;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: "Prata";
+}
+
+.center-spacing{
+	position: absolute;
+	left: 210px ;
+	top:200px ;
+
+}
+
+.heading{
+	position: relative;
+	text-align: center;
+	margin-left: 30px;
+
+}
+.results{
+	font-size:100px;
+
+}
+body{
+	
+    background-image: url(https://d39l2hkdp2esp1.cloudfront.net/img/photo/140991/140991_00_2x.jpg?20180302040152);
+   height:20%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   }
+
+   
+#quote{
+	text-align: center;
+	font-style: italic;
+	font-family: "Prato";
+
+}
+
+.about_text{
+
+
+	font-size: 1.3em;
+	text-align: justify;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+#logo{
+	position: absolute;
+	top:0px;
+	right:0px;
+	length:5%;
+	width: 4%;
+}
+
+#logo_m{
+	position: absolute;
+	top:-6px;
+	right:70px;
+	font-size: 20px;
+	}
+
+.city-text{
+	font-size: 36px;
+	white-space: nowrap;
+}
+
+.cuisine-text{
+
+font-size: 36px;
+position: relative;
+top:120px; 
+}

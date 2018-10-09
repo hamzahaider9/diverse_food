@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width">
+		<title>Project 1</title> 	
+		<link rel="stylesheet" type="text/css" href="stylefinal.css" />
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Prata" rel="stylesheet">
+		<style>body {
+            background-image: url(https://media.istockphoto.com/photos/simple-light-gray-background-picture-id635476046?k=6&m=635476046&s=612x612&w=0&h=pvwpobUDBVYIL9fevZa6ckNoOp64FZ1LA-I9YmeKeTg=);
+            
+        }	</style>
+    </head>
+	<body>
+		<a href="index.html">Back to Home Page</a>
+		<!-- CONTENT GOES HERE -->
+		<h1 class= "heading">Documentation</h1>
+		<div class="results-style" id="results"></div>
+		<div class = "about_text">
+			<p class = "about_text">This project highlights the various cuisines that we can have delivered at our doorstep. The user is prompted to enter his location to view the different types of foods that they can eat. Foods that he never knew even existed where he lives. By entering the area and pressing enter, a list of all the different cuisines that deliver to his area pop down below as well as a count of the total number of cuisines on offer. Through this project, the user is bound to be surprised at the variety of food on offer and next time, they decide to order food their chances of trying something new increases. At the end of the day, there is indeed no greater bonding experience than food and greater ice-breaker than the journey to the plains of Mexico that your food took you on. </p><p class = "about_text">
+
+The word diversity is synonymous to NYUAD. Yet, in this amalgamation of our cultures, we often stick to the tried and tested. We rarely venture outside our own cuisine and we do not even know the plethora of different cuisines that exist in our area. Similarly, throughout the world, people do not possess knowledge of the different foods that they have access to and could possibly eat by ordering at the click of a button. By seeing all the different types of cuisines, the user may be amazed to see a cuisine which he thought did not even exist and may try something different. 
+</p><p class = "about_text">
+I employed the Zomato API and the geotag API. The area that is entered is converted into its longitudinal and latitudinal co-ordinates through the geotagging API and then this data is fed into the Zomato API. The Zomato API does not accept locations or names of areas so it is pertinent to convert the data into a form that can be used by Zomato.
+</p><p class = "about_text">
+The interface is pretty straightforward. The user is prompted by the question to enter an area. Then the user is prompted to click “Enter” after which a detailed list of the places is shown below. On the top-right corner, there is a “powered by Zomato” statement to enable the user to realize that the Zomato API is being utilized. A light-colored background was used so it would be easier for the text to be rad on the screen. The “About” link is conveniently placed onto the left side of the title so it is easier for the user to access it incase he needs to know more.
+</p><p class = "about_text">
+I extensively used the services of Google, W3Schools and jQuery.com while working. I searched for even the basic things like different types of position features like relative, absolute etc on W3Schools. Moreover, I also used Stack Overflow to find the solution to an error that was causing the Zomato API not to render correctly. I also used the sample code in FlickrTimes Mashups repository created by Craig Protzel on Github as the basis of my own code.
+</p><p class = "about_text">
+The biggest challenge was to get the Zomato API running as it involved a header. I have very little experience with coding so it was very time consuming to find the correct solution however I was successful as it was only a couple of lines of code in ajax that did the trick. Furthermore, the background image would not expand when the text was longer than it. It was found by changing the background size and its properties that the image would expand as well.
+</p><p class = "about_text">
+The next steps involve linking each cuisine to a particular restaurant that delivers to the area. For instance, if a person clicks on a cuisine, it would be a link which would open the menu of the restaurant and allow the user to seamlessly order food to one’s place.
+</p>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="final.js"></script>
+	</body>
+</html>
